@@ -1,0 +1,29 @@
+cat <<EOF > .gitignore
+# =====================
+# Rust
+# =====================
+/target/
+
+# =====================
+# Go
+# =====================
+/bin/
+/build/
+/dist/
+/out/
+/*.exe
+*.test
+*.log
+
+# Go modules
+vendor/
+
+# Go coverage
+*.cover
+coverage.out
+
+# =====================
+# macOS
+# =====================
+.DS_Store
+EOF
